@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Pedido de Stickers Series Senin </title>
+</head>
+<body>
+    <h1>Pedido de Stickers Series Senin</h1>
+    
+    <h4>Puede llevar hasta 10 stickers en total </h4>
+    
+    <div class="opcion-sticker">
+        <div class="sticker">
+            <img src="assets/img/guts.jpg" alt="Flor">
+            <br>
+            <label for="foto1">Cantidad:</label>
+            <input type="number" id="foto1" value="0" min="0" max="10">
+        </div>
+        
+        <div class="sticker">
+            <img src="assets/img/thorfin.jpg" alt="estrellas">
+            <br>
+            <label for="foto2">Cantidad:</label>
+            <input type="number" id="foto2" value="0" min="0" max="10">
+        </div>
+        
+        <div class="sticker">
+            <img src="assets/img/musashi.jpg" alt="Hojas">
+            <br>
+            <label for="foto3">Cantidad:</label>
+            <input type="number" id="foto3" value="0" min="0" max="10">
+        </div>
+    </div>
+
+    <p class="respuesta"></p>
+
+    <p>
+    <button onclick="Pedido()">Realizar Pedido</button>
+    </p>
+  
+</body>
+
+<script defer src="script.js"></script>
+
+</html>

@@ -1,0 +1,29 @@
+body {
+    background-color:black;
+    text-align: center;
+}
+h1 {
+    color: whitesmoke;
+}
+.opcion-sticker {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px;
+}
+
+.sticker {
+    text-align: center;
+}
+
+img {
+    width: 250px;
+    height: 250px;
+   
+}
+
+button {
+    background-color: rgb(91, 64, 182);
+    margin-top: 10px;
+    padding: 10px;
+    font-size: 16px;
+}
